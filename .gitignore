@@ -1,0 +1,15 @@
+# STEP 2: .GITIGNORE
+
+# Exclude files containing private credentials.
+.env
+.env.example
+
+# Exclude the virtual environment.
+.venv/
+
+# Exclude generated Python files.
+__pycache__/
+*.pyc
+
+# Exclude temporary Chainlit uploads.
+.files/

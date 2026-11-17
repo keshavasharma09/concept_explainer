@@ -1,0 +1,11 @@
+# Build the chat interface.
+chainlit>=2,<3
+
+# Create prompts, output parsers, and chains.
+langchain-core>=1,<2
+
+# Connect LangChain with Gemini.
+langchain-google-genai>=4,<5
+
+# Read configuration from .env.
+python-dotenv>=1,<2
